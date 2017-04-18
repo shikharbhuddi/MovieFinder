@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="movie_name_1" />
+    <item type="id" name="movie_name_2" />
+    <item type="id" name="movie_name_3" />
+    <item type="id" name="movie_name_4" />
+
+    <item type="id" name="spinner_1" />
+    <item type="id" name="spinner_2" />
+    <item type="id" name="spinner_3" />
+    <item type="id" name="spinner_4" />
+</resources>

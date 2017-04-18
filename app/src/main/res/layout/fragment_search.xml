@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+        <TextView
+            android:id="@+id/search_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:textColor="@color/colorSecondary"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="24sp"/>
+
+        <LinearLayout
+            android:id="@+id/more_searches_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/search_field" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/add_searches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="right"
+            android:padding="8dp"
+            android:text="@string/add_searches"
+            android:textColor="@color/colorSecondary" />
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="309dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="46dp"
+            android:padding="8dp"
+            android:textSize="13sp"
+            android:text="@string/action_search"
+            android:background="@drawable/search_button_shape" />
+
+    </LinearLayout>
+</ScrollView>

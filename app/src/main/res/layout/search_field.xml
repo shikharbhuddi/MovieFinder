@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:theme="@style/TextLabel">
+
+        <AutoCompleteTextView
+            android:id="@+id/movie_name"
+            android:hint="@string/prompt_search"
+            android:layout_weight="1"
+            style="@style/CustomFontStyleForSearchField"
+            android:inputType="text"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:theme="@style/customSpinnerTheme"
+        android:popupBackground="@color/colorSecondary"
+        android:prompt="@string/spinner_title" />
+</LinearLayout>
